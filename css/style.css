@@ -1,0 +1,48 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 1px solid #969696;
+}
+
+
+
+.menu-options{
+    display: flex;
+    list-style: none;
+
+
+}
+
+.menu-options > li{
+    margin-left: 20px;
+    letter-spacing: 2px;
+
+
+}
+
+
+
+.main-content{
+    background-color: rgb(231, 231, 231);
+    height: 90vh;
+
+
+}
+
+#search{
+    height: 2vh;
+    width: 18vw;
+    border: 1px rgb(184, 182, 182) solid;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+#search:focus{
+    outline: none;
+
+
+
+}
